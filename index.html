@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SPA - Router</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li><button onclick="router.routerLink('/')">
+        Home
+      </button></li>
+      <li><button onclick="router.routerLink('/contact')">
+        Contact
+      </button></li>
+      <li><button onclick="router.routerLink('/about')">
+        About Me
+      </button></li>
+    </ul>
+  </header>
+
+  <div data-router>
+  </div>
+
+  <script src="routes.js"></script>
+  <script src="router.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
